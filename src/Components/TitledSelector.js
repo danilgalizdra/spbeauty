@@ -10,7 +10,7 @@ const Select = styled.select`
     border-radius: 24px;
     border: solid #E2E8F0 1px;
     background-color: #F8FAFC;
-    color: gray;
+    color: #0F172A;
     &:hover {
         background-color: #D9E2EFB8;
     }
@@ -19,11 +19,11 @@ const Select = styled.select`
 function TitledSelector({title, options}) {
     const Title = title === undefined ? 
         (<div></div>) : 
-        (<div className="caption">{title}</div>);
+        (<div className="text-color caption">{title}</div>);
     return (
         <div className='d-flex flex-column gap-1'>
             {Title}
-            <Select className='p-2'>
+            <Select className='ps-3 p-2'>
                 {options.map(optionName => {
                     return (
                         <option key={optionName}>{optionName}</option>
