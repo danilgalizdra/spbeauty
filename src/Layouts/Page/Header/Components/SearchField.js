@@ -14,6 +14,9 @@ const Input = styled.input`
     background-color: #F8FAFC;
     color: #94A3B8;
     width: 100%;
+    &:hover {
+        background: #E2E8F0;
+    }
     &:focus {
         background: white;
     }

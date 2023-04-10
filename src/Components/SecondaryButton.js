@@ -11,7 +11,7 @@ function SecondaryButton(props) {
         color: #64748B;
         border-radius: 24px;
         &:hover {
-            background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
+            background: #F8FAFC;
         }
         &:active {
             background: #DFDFDF;
